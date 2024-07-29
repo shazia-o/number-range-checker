@@ -1,0 +1,21 @@
+public class TeenNumberChecker {
+  //This is a small program that checks if a number is a "teen" number (if it's between 13 and 19)
+    
+    public static boolean hasTeen (int a, int b, int c) {
+        
+        if (a >= 13 && a <= 19 || b >= 13 && b <= 19 || c >= 13 && c <= 19) {
+            return true;
+        } return false;
+        
+    }
+    
+    public static boolean isTeen (int num) {
+        
+        //A number is "teen" if it is in the range 13-19 (inclusive), else return false
+        if (num >= 13 && num <= 19) {
+            return true;
+        } return false;
+        
+    }
+    
+}
